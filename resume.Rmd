@@ -29,7 +29,7 @@ source('parsing_functions.R')
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv('positions.csv') %>% 
+position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527/GitHub/cv2/CV/positions.csv') %>% 
   filter(in_resume) %>% 
   mutate(
     # Build some custom sections by collapsing others
