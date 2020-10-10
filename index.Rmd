@@ -52,11 +52,11 @@ Aside
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
-if(PDF_EXPORT){
-  cat("View this CV online with links at _nickstrayer.me/cv_")
-} 
-else { cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
-}
+# if(PDF_EXPORT){
+#   cat("View this CV online with links at _nickstrayer.me/cv_")
+# } 
+# else{ cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+# }
 ```
 
 Contact {#contact}
@@ -64,10 +64,9 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> aramamo1@asu.edu
-> - <i class="fa fa-twitter"></i> NicholasStrayer
 - <i class="fa fa-github"></i> github.com/Niagara1000
-> - <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+> - <i class="fa fa-link"></i> [sentimenta.org](http://sentimenta.org)
+- <i class="fa fa-phone"></i> (123) 456-7890
 
 
 
