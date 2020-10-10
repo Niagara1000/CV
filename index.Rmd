@@ -27,7 +27,7 @@ links <- c()
 source('parsing_functions.R')
 
 # Load csv with position info
-position_data <- read_csv('positions.csv')
+position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527/GitHub/cv2/CV/positions.csv')
 ```
 
 
@@ -48,7 +48,7 @@ Aside
 ================================================================================
 
 
-![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527/dataLOGO.png){width=30%, height=50%}
+![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527/mochi-77c69d.jpg){width=10%, height=10%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -77,12 +77,10 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
-  "Javascript (d3.js)", 4.5,
+  "RStudio",            4.5,
   "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "HTML",               3.5,
+  "SQL",                3
 )
 
 build_skill_bars(skills)
@@ -107,14 +105,14 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Archana Ramamoorthy {#title}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "I have done many projects using R, Python, and SQL. I have also created my own [GitHub Page](niagara1000.github.io).
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+I am currently searching for a data science position that allows me to perform data visualization and ML to help people explore and deeply understand their data. 
 "
 
 cat(sanitize_links(intro_text))
@@ -124,6 +122,10 @@ cat(sanitize_links(intro_text))
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
+
+::: aside
+It's always a good time to learn and share new knowledge. 
+:::
 
 ```{r}
 print_section(position_data, 'education')
@@ -144,7 +146,7 @@ Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
-I have worked in a variety of roles ranging from journalist to software engineer to data scientist. I like collaborative environments where I can learn from my peers. 
+I have been a student for most of my life and I love it. When I become a data scientist, I hope to help many people gain deeper insights about their data. 
 :::
 
 ```{r}
@@ -159,7 +161,7 @@ Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
-I am passionate about education. I believe that no topic is too complex if the teacher is empathetic and willing to think about new methods of approaching task. 
+I love to teach. I believe that no topic is too complex if the teacher is willing to think of new creative ways of approaching tasks. 
 :::
 
 ```{r}
@@ -172,7 +174,7 @@ Selected Data Science Writing {data-icon=chart-line}
 
 
 ::: aside
-I regularly blog about data science and visualization on my blog [LiveFreeOrDichotomize.](https://livefreeordichotomize.com/)
+I also enjoy artistic activities, like sketching and calligraphy.
 :::
 
 ```{r}
