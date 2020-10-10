@@ -47,7 +47,7 @@ Aside
 ================================================================================
 
 
-![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527/mochi-77c69d.jpg){width=100%}
+![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527/mochi-77c69d.jpg){width=50%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -112,7 +112,7 @@ Archana Ramamoorthy {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have done projects using R, Python, and SQL. I have also designed and created a [Github page](niagara1000.github.io).
+intro_text <- "I have done projects using R, Python, and SQL. I have also designed and created a [Github page](https://niagara1000.github.io).
 
 I am currently looking for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
 "
