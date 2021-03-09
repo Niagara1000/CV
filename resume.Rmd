@@ -139,11 +139,3 @@ Selected Positions {data-icon=suitcase}
 position_data %>% print_section('positions')
 ```
 
-Selected Writing {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-
-```{r}
-position_data %>% print_section('writings')
-```
-
