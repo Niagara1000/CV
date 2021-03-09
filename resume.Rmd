@@ -147,28 +147,3 @@ Selected Writing {data-icon=newspaper}
 position_data %>% print_section('writings')
 ```
 
-<br>
-<br>
-<br>
-
-
-
-```{r}
-if(PDF_EXPORT){
-  cat("
-  
-Links {data-icon=link}
---------------------------------------------------------------------------------
-
-<br>
-
-
-")
-  
-  walk2(links, 1:length(links), function(link, index){
-    print(glue('{index}. {link}'))
-  })
-}
-```
-
-
