@@ -29,7 +29,7 @@ source('parsing_functions.R')
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527/GitHub/cv2/CV/positions.csv') %>% 
+position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/GitHub/cv2/CV/positions.csv') %>% 
   filter(in_resume) %>% 
   mutate(
     # Build some custom sections by collapsing others
@@ -47,7 +47,7 @@ Aside
 ================================================================================
 
 
-![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527/mochi-77c69d.jpg){width=50%}
+![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/mochi-77c69d.jpg){width=30%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -69,10 +69,11 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "RStudio",            5,
+  "SQL",                4.5,
   "Python",             4.5,
   "Scala",              4,
+  "MySQL",              4,
   "DataBricks",         4,
-  "SQL",                4,
   "HTML",               3.5,
   "AWS",                3
 )
@@ -108,13 +109,13 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Archana Ramamoorthy {#title}
+Archana R. {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have done projects using R, Python, and SQL. I have also designed and created a [Github page](https://niagara1000.github.io).
+intro_text <- "I have done projects using R, Python, and SQL. I have also designed and created a [Github page](https://niagara1000.github.io/).
 
-I am currently looking for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+I am currently looking for a entry-level position that allows me to help people explore and understand their data using machine learning, data analysis, visualization, and more.
 "
 
 
