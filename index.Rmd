@@ -76,11 +76,14 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "RStudio",            4.5,
-  "Python",             4,
+  "RStudio",            5,
+  "SQL",                4.5,
+  "Python",             4.5,
+  "Scala",              4,
+  "MySQL",              4,
+  "DataBricks",         4,
   "HTML",               3.5,
-  "SQL",                3
+  "AWS",                3
 )
 
 build_skill_bars(skills)
