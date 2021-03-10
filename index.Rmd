@@ -27,7 +27,7 @@ links <- c()
 source('parsing_functions.R')
 
 # Load csv with position info
-position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527/GitHub/cv2/CV/positions.csv')
+position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/GitHub/cv2/CV/positions.csv')
 ```
 
 
@@ -48,7 +48,7 @@ Aside
 ================================================================================
 
 
-![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527/mochi-77c69d.jpg){width=10%, height=10%}
+![logo](/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/mochi-77c69d.jpg){width=10%, height=10%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
