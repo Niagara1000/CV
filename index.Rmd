@@ -27,7 +27,7 @@ links <- c()
 source('parsing_functions.R')
 
 # Load csv with position info
-position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/GitHub/cv2/CV/positions.csv')
+position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/GitHub/cv2/CV/positionsUpdated.csv')
 ```
 
 
