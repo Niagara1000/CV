@@ -29,7 +29,7 @@ source('parsing_functions.R')
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/GitHub/cv2/CV/positions.csv') %>% 
+position_data <- read_csv('/Users/tritonxbts/Documents/ASU_Masters/CPP_527_Fall_A/GitHub/cv2/CV/positionsUpdated.csv') %>% 
   filter(in_resume) %>% 
   mutate(
     # Build some custom sections by collapsing others
@@ -54,7 +54,7 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> aramamo1@asu.edu
+- <i class="fa fa-envelope"></i> triton17@outlook.com
 - <i class="fa fa-github"></i> github.com/niagara1000
 - <i class="fa fa-link"></i> [sentimenta.org](http://sentimenta.org)
 - <i class="fa fa-phone"></i> (123) 456-7890
@@ -69,8 +69,10 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "RStudio",            5,
+  "R",                  5,
   "SQL",                4.5,
   "Python",             4.5,
+  "Github",             4,
   "Scala",              4,
   "MySQL",              4,
   "DataBricks",         4,
