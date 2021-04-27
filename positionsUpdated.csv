@@ -1,6 +1,6 @@
 section,in_resume,title,loc,institution,start,end,description_1,description_2,description_3
 education,TRUE,"Masters Candidate, Program Evaluation and Data Analytics",Arizona State University,"Tempe, AZ",2020,2021,Learning R programming and Regression and Big Data,Graduate Student,
-education,TRUE,"Bachelors, Psychology",University of California San Diego,"La Jolla, CA",2012,2018,Took many science and psychology classes to deepen my knowledge of the world,NA,
+education,TRUE,"Bachelors, Psychology",University of California San Diego,"La Jolla, CA",2012,2018,Took many science and psychology classes to deepen my knowledge of the world,Bachelors Student,
 research_positions,FALSE,..,Data Science Lab,Johns Hopkins University,2017,2018,Building R Shiny applications in the contexts of wearables and statistics education.,Work primarily done in R Shiny and Javascript (node and d3js).,NA
 industry_positions,FALSE,Co-Founder,Sentimenta,,,,,,
 industry_positions,FALSE,Data Science Intern,Dealer.com,"Burlington, VT",2015,2015,Worked with the product analytics team to help parse and visualize large stores of data to drive business decisions.,NA,NA
